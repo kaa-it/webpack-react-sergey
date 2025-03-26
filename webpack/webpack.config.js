@@ -27,7 +27,7 @@ module.exports = {
                                                                 auto: /\.module\.\w+$/i,
                                                                 namedExport: false,
                                                        },
-                                                        importLoaders: 2, //Значение 2 говорит о том, что некоторые трансформации PostCSS нужно применить до css-loader.
+                                                        importLoaders: 1, //Значение 2 говорит о том, что некоторые трансформации PostCSS нужно применить до css-loader.
                                                },
                                        },
                                         'postcss-loader',
